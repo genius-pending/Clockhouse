@@ -4,7 +4,11 @@
   "description": "Website for clockhouse pub",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "npm run lint --quiet",
+    "dev": "nodemon server.js"
+    
   },
   "repository": {
     "type": "git",
