@@ -1,0 +1,27 @@
+body {
+    background-image:url('/assets/imgs/dark-natural-retro-decorative-backdrop.jpg');
+   }
+
+.mynav a:hover{
+    background-color: #b2844b;
+}
+
+.active a{
+    background-color: #b2844b;
+}
+
+.mynav{
+    border-bottom: 8px solid #b2844b;
+}
+
+.fa-instagram{
+    color:#b2844b;
+}
+
+.clockhouse{
+    margin-right: 70px;
+}
+
+.clockhousepic{
+    width: 100%;
+}

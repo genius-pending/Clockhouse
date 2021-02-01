@@ -1,0 +1,28 @@
+{
+  "name": "clockhouse",
+  "version": "1.0.0",
+  "description": "Website for clockhouse pub",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Clockhouse"
+  },
+  "author": "shivey singh",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.4.0",
+    "sql": "^0.78.0"
+  }
+}
