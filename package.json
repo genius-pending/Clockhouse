@@ -4,10 +4,7 @@
   "description": "Website for clockhouse pub",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "lint": "eslint --ignore-path .gitignore .",
-    "test": "npm run lint --quiet",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +23,8 @@
     "nodemon": "^2.0.7",
     "sequelize": "^6.4.0",
     "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
   }
 }
